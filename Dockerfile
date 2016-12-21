@@ -1,7 +1,7 @@
 FROM mongo
 
 
-RUN mongod --sslMode requireSSL --sslCAFile ./cert.pem
+#RUN mongod --sslMode requireSSL --sslCAFile ./cert.pem
 
 
 
